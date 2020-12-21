@@ -37,8 +37,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `regular-joes`,
-        short_name: `regular-joes`,
+        name: `Hide and Wild`,
+        short_name: `Hide+Wild`,
         start_url: `/`,
         background_color: `#2d1e1f`,
         theme_color: `#2d1e1f`,
