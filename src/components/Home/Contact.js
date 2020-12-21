@@ -4,11 +4,11 @@ import Title from "../Globals/Title";
 export default function Contact() {
   return (
     <section className="contact py-5">
-      <Title title="contact us" />
+      <Title title="contact Hilary" />
       <div className="row">
         <div className="col-10 col-sm-8 col-md-6 mx-auto">
           <form
-            action="https://formspree.io/youremailhere@email.com"
+            action=""
             method="POST"
           >
             {/* name */}
@@ -19,7 +19,7 @@ export default function Contact() {
                 className="form-control"
                 name="name"
                 id="name"
-                placeholder="john smith"
+                placeholder="your name"
               />
             </div>
             {/* email */}
@@ -35,13 +35,13 @@ export default function Contact() {
             </div>
             {/* description */}
             <div className="form-group">
-              <label htmlFor="description">Description</label>
+              <label htmlFor="description">Message</label>
               <textarea
-                name="description"
-                id="description"
+                name="message"
+                id="message"
                 className="form-control"
                 rows="5"
-                placeholder="your description here..."
+                placeholder="your message here..."
               />
             </div>
             {/* submit */}

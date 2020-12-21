@@ -1,6 +1,7 @@
 :root {
   --mainBrown: #2d1e1f;
-  --mainYellow: rgb(255, 158, 9);
+  --mainYellow: #864527;/* rgb(255, 158, 9);*/
+  --mainHilight: #ece8dc;
   --mainGrey: #ece8dc;
   --mainWhite: #fff;
   --mainDark: #222;
@@ -22,6 +23,9 @@ h6 {
 }
 .text-yellow {
   color: var(--mainYellow);
+}
+.text-hilight {
+  color: var(--mainHilight);
 }
 .cart-icon {
   cursor: pointer;
@@ -47,7 +51,7 @@ h6 {
 }
 .btn-yellow:hover {
   background: var(--mainYellow);
-  color: var(--mainBrown);
+  color: var(--mainHilight);
 }
 .footer {
   background: var(--mainBrown);

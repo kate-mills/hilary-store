@@ -12,7 +12,7 @@ const AboutPage = ({ data }) => {
       <SEO title="About" />
       <BackgroundSection
         img={data.img.childImageSharp.fluid}
-        title="about us"
+        title="Hide and Wild"
         styleClass="about-background"
       />
       <Info />
